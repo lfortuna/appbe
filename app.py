@@ -4,8 +4,8 @@ import sys
 
 #HOST = '192.168.1.251'               # Symbolic name meaning all available interfaces
 #HOST = '192.168.43.53'               # Symbolic name meaning all available interfaces
-HOST = '127.0.0.1'               # Symbolic name meaning all available interfaces
-PORT = 10001              # Arbitrary non-privileged port
+HOST = '172.30.59.49'               # Symbolic name meaning all available interfaces
+PORT = 8080              # Arbitrary non-privileged port
 s = None
 
 def get_lan_ip():

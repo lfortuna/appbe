@@ -1,6 +1,12 @@
+Creazione di nuovo repository locale e remoto
 echo "# appbe" >> README.md
 git init
 git add README.md
 git commit -m "first commit"
 git remote add origin https://github.com/lfortuna/appbe.git
 git push -u origin master
+
+Aggiunta di file
+git add *
+git commit -m "v1.0"
+git push origin master
